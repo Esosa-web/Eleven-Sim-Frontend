@@ -1,0 +1,40 @@
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }
+  
+  .navbar {
+    background-color: #000000;
+  }
+  
+  .navbar-item {
+    color: #ffffff;
+  }
+  
+  .hero {
+    background-color: #333
+  }
+  
+  .hero-body {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .button.is-primary {
+    background-color: #00ffcc;
+    color: #000000;
+  }
+  
+  .sidebar {
+    background-color: #2a2a2a;
+    padding: 20px;
+  }
+  
+  .main-content {
+    background-color: #2a2a2a;
+    padding: 20px;
+  }
+  
+  .footer {
+    background-color: #000000;
+    color: #ffffff;
+  }

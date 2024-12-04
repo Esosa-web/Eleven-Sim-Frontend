@@ -1,0 +1,191 @@
+.matchContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .matchTitle {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .modeToggle {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .modeToggle:hover {
+    background-color: #45a049;
+  }
+  
+  .teamSelection {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .teamSelection select {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .matchSettings {
+    margin-bottom: 20px;
+  }
+  
+  .matchSettings label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .matchSettings select {
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .simulateButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .simulateButton:hover {
+    background-color: #007B9A;
+  }
+  
+  .tournamentMode {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .tournamentMode h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .standingsTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+  }
+  
+  .standingsTable th,
+  .standingsTable td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .standingsTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .standingsTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .standingsTable tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .matchDisplay {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .matchInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .team {
+    text-align: center;
+    flex: 1;
+  }
+  
+  .team h2 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .team p {
+    margin: 5px 0 0;
+    color: #666;
+  }
+  
+  .scoreAndTimer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .score {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .matchTimer {
+    font-size: 1.2em;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  .matchStatus {
+    text-align: center;
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .eventLog {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .eventLog p {
+    margin: 5px 0;
+    color: #333;
+  }

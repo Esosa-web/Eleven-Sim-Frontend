@@ -1,0 +1,50 @@
+:root {
+  --primary-color: #ff6b6b;
+  --secondary-color: #4ecdc4;
+  --background-color: #f7f7f7;
+  --text-color: #333;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.navbar {
+  background-color: var(--primary-color);
+}
+
+.navbar-item,
+.navbar-link {
+  color: white !important;
+}
+
+.navbar-item:hover,
+.navbar-link:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.title, .subtitle {
+  color: var(--text-color);
+}
+
+.button.is-primary {
+  background-color: var(--primary-color);
+}
+
+.button.is-primary:hover {
+  background-color: darken(var(--primary-color), 10%);
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+}
+
+.card-header-title {
+  color: var(--text-color);
+}
+
+.card-content {
+  color: var(--text-color);
+}
