@@ -21,7 +21,7 @@ const TournamentCreator: React.FC = () => {
 
   const fetchTeams = async () => {
     try {
-      const response = await fetch('/api/teams');
+      const response = await fetch('https://elevensimback.netlify.app/api/teams');
       const teams = await response.json();
       setAvailableTeams(teams);
       setIsLoading(false);
